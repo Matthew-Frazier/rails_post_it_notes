@@ -23,9 +23,9 @@ class NotesController < ApplicationController
   end
 
   def edit
-    # params = { id: "6"}
+    
     @note = Note.find(params[:id])
-    #render :edit
+    
   end
 
   def update
